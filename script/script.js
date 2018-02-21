@@ -63,4 +63,9 @@ document.querySelector('form').addEventListener('submit', function(event){
 		document.querySelector('#highestHeads').innerHTML = headsHigh;
 		document.querySelector('#lowestHeads').innerHTML = headsLow;
 		console.log(`highestTails: ${tailsHigh} | lowestTails: ${tailsLow} | lowestHeads: ${headsLow} | highestHeads: ${headsHigh}`);
+		//reset the record values
+		tailsHigh = 0;
+		tailsLow = 0;
+		headsHigh = 0;
+		headsLow = 0;
 	}
